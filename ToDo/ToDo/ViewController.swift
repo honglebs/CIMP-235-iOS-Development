@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         }
         
         txtItem.text = ""
-    }
+    } //this is a comment
     
 }
 

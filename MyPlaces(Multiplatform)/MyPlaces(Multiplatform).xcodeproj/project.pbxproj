@@ -11,6 +11,7 @@
 		49FCF2DE2A5353C500C3AFD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCF2DD2A5353C500C3AFD4 /* ContentView.swift */; };
 		49FCF2E02A5353C600C3AFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FCF2DF2A5353C600C3AFD4 /* Assets.xcassets */; };
 		49FCF2E42A5353C600C3AFD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FCF2E32A5353C600C3AFD4 /* Preview Assets.xcassets */; };
+		49FCF2EB2A53549100C3AFD4 /* CirclePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCF2EA2A53549100C3AFD4 /* CirclePic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		49FCF2DF2A5353C600C3AFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FCF2E12A5353C600C3AFD4 /* MyPlaces_Multiplatform_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyPlaces_Multiplatform_.entitlements; sourceTree = "<group>"; };
 		49FCF2E32A5353C600C3AFD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49FCF2EA2A53549100C3AFD4 /* CirclePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				49FCF2DF2A5353C600C3AFD4 /* Assets.xcassets */,
 				49FCF2E12A5353C600C3AFD4 /* MyPlaces_Multiplatform_.entitlements */,
 				49FCF2E22A5353C600C3AFD4 /* Preview Content */,
+				49FCF2EA2A53549100C3AFD4 /* CirclePic.swift */,
 			);
 			path = "MyPlaces(Multiplatform)";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				49FCF2DE2A5353C500C3AFD4 /* ContentView.swift in Sources */,
 				49FCF2DC2A5353C500C3AFD4 /* MyPlaces_Multiplatform_App.swift in Sources */,
+				49FCF2EB2A53549100C3AFD4 /* CirclePic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

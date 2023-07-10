@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496E79972A5C5F6A004FF849 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E79962A5C5F6A004FF849 /* MapView.swift */; };
 		49FCF2C02A53327E00C3AFD4 /* MyPlaces_iOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCF2BF2A53327E00C3AFD4 /* MyPlaces_iOS_App.swift */; };
 		49FCF2C22A53327E00C3AFD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCF2C12A53327E00C3AFD4 /* ContentView.swift */; };
 		49FCF2C42A53327F00C3AFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FCF2C32A53327F00C3AFD4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496E79962A5C5F6A004FF849 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		49FCF2BC2A53327E00C3AFD4 /* MyPlaces(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyPlaces(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FCF2BF2A53327E00C3AFD4 /* MyPlaces_iOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaces_iOS_App.swift; sourceTree = "<group>"; };
 		49FCF2C12A53327E00C3AFD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				49FCF2C32A53327F00C3AFD4 /* Assets.xcassets */,
 				49FCF2C52A53327F00C3AFD4 /* Preview Content */,
 				49FCF2CD2A534E8700C3AFD4 /* CirclePic.swift */,
+				496E79962A5C5F6A004FF849 /* MapView.swift */,
 			);
 			path = "MyPlaces(iOS)";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FCF2C22A53327E00C3AFD4 /* ContentView.swift in Sources */,
+				496E79972A5C5F6A004FF849 /* MapView.swift in Sources */,
 				49FCF2C02A53327E00C3AFD4 /* MyPlaces_iOS_App.swift in Sources */,
 				49FCF2CE2A534E8700C3AFD4 /* CirclePic.swift in Sources */,
 			);

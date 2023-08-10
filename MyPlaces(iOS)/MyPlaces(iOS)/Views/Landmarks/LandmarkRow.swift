@@ -29,6 +29,6 @@ struct LandmarkRow: View {
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
         //sending the first value
-        LandmarkRow(landmark: landmarks[0])
+        LandmarkRow(landmark: LandmarksViewModel().landmarks[0])
     }
 }

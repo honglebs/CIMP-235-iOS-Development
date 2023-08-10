@@ -7,8 +7,12 @@
 
 import Foundation
 
+final class LandmarksViewModel: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 //create for me a bowl called landmark, use load to create the bowl
-var landmarks: [Landmark] = load("landmarkData.json")
+//var landmarks: [Landmark] = load("landmarkData.json")
 
 //generic machine to cut cookie (need to give it blade)
 func load<T: Decodable>(_ filename:String) -> T {
